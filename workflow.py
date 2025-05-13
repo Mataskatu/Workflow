@@ -30,17 +30,15 @@ st.markdown("➡️ Optionally enter a **Manual Start Date** (YYYY-MM-DD) for ea
 
 default_data = {
     "Task": [
-        "Ramming piles", "Installation of structure", "Installation of modules",
-        "Installation of inverters", "Foundation work", "Wiring of electrical system",
-        "Testing and inspection", "Roof installation", "Painting and finishing", "Site cleanup"
+        "Task 1", "Task 2", "Task 3", "Task 4", "Task 5",
+        "Task 6", "Task 7", "Task 8", "Task 9", "Task 10"
     ],
     "Total Hours": [80, 50, 200, 20, 150, 120, 60, 100, 80, 40],
     "Workers Requested": [2, 4, 3, 1, 5, 3, 2, 3, 4, 1],
     "Priority": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     "Dependencies": [
-        "", "Ramming piles", "Installation of structure", "Installation of modules",
-        "Ramming piles", "Installation of structure", "Installation of modules",
-        "Testing and inspection", "Roof installation", "Painting and finishing"
+        "", "Task 1", "Task 2", "Task 3", "Task 1",
+        "Task 2", "Task 3", "Task 7", "Task 8", "Task 9"
     ],
     "Manual Start": [""] * 10
 }
