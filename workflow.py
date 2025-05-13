@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from io import BytesIO
 
 st.set_page_config(page_title="Dynamic Gantt Chart with Holidays", layout="wide")
-st.title("📊 Workflow Timeline Gantt Chart ")
+st.title("📊 Workflow Timeline")
 
 # --- Sidebar Config ---
 st.sidebar.header("Configuration")
