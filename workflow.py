@@ -25,7 +25,7 @@ if holidays:
         st.warning("⚠️ Invalid holiday format. Use YYYY-MM-DD.")
 
 # --- Task Input Table ---
-st.subheader("📝 Task List (Add dependencies by task name, comma-separated)")
+st.subheader("📝 Task List ")
 st.markdown("➡️ Optionally enter a **Manual Start Date** (YYYY-MM-DD) for each task to fix its schedule.")
 
 default_data = {
