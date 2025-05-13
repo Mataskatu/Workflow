@@ -234,7 +234,6 @@ buffer = BytesIO()
 with pd.ExcelWriter(buffer, engine='openpyxl') as writer:
     output_df.to_excel(writer, index=False, sheet_name="Schedule")
     daily_df.to_excel(writer, index=False, sheet_name="Daily Allocation")
-    writer.save()
 
 st.download_button(
     label="📥 Download Excel Schedule",
